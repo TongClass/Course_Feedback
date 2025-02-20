@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> 这里是北京大学通用人工智能实验班学术部的资源分享主页。
 {: .prompt-tip }
