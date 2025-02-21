@@ -1,7 +1,7 @@
 ---
 title: "[帮助文档]post.md写作指南"
 description: "如果你是第一次尝试写post，请参看本文。"
-author: "PhotonYan"
+author: PhotonYan
 date: 2025-02-21 10:00:00 +0800
 categories: ["tutorial", "post_writing"]
 tags: ["tutorial"]
