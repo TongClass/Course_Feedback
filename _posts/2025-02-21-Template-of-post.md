@@ -1,13 +1,14 @@
 ---
-title: [帮助文档]post.md写作指南
-description: 如果你是第一次尝试写post，请参看本文。
-author: PhotonYan
+title: "[帮助文档]post.md写作指南"
+description: "如果你是第一次尝试写post，请参看本文。"
+author: "PhotonYan"
 date: 2025-02-21 10:00:00 +0800
-categories: [tutorial, post_writing] 
-tags: [tutorial]
+categories: ["tutorial", "post_writing"]
+tags: ["tutorial"]
 math: true
 comments: true
 ---
+
 
 上传至`github page`的`post`文件应当是一个名为`YYYY-MM-DD-Title.md`的`markdown`文件。其中，标题中的空格应当使用`-`或者`_`替代。
 
@@ -16,12 +17,12 @@ comments: true
 以下是应当写在整个`.md`文件之前的标记。
 ```yaml
 ---
-title: [课程测评]课程名称
-description: 补充描述
-author: 作者
+title: "[课程测评]课程名称"
+description: "补充描述"
+author: "作者"
 date: 2025-02-21 10:00:00 +0800
-categories: [course_feedback, collage] 
-tags: [course_feedback]
+categories: ["course_feedback", "collage"] 
+tags: ["course_feedback"]
 math: true
 comments: true
 ---
@@ -160,17 +161,6 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
-## 图像
-
-### 默认
-
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
-_图片的Caption_
-
-## 视频
-
-{% include embed/youtube.html id='Balreaj8Yqs' %}
-
 ## 交叉引用
 
 [^footnote]: The footnote source
@@ -180,12 +170,12 @@ _图片的Caption_
 这里给出一个课程测评实例：
 ```markdown
 ---
-title: [课程测评]摸鱼学导论
-description: Meow
-author: 通通
+title: "[课程测评]摸鱼学导论"
+description: "Meow"
+author: "通通"
 date: 2025-02-21 10:00:00 +0800
-categories: [course_feedback, iai] 
-tags: [course_feedback]
+categories: ["course_feedback", "iai"] 
+tags: ["course_feedback"]
 math: true
 comments: true
 ---
