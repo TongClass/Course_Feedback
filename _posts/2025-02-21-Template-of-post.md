@@ -161,11 +161,6 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
-## 交叉引用
-
-[^footnote]: The footnote source
-[^fn-nth-2]: The 2nd footnote source
-
 ## 例子
 这里给出一个课程测评实例：
 ```markdown
@@ -200,3 +195,31 @@ $$
 {: .prompt-danger }
 
 ```
+对应的编译效果应当为：
+
+# 课程内容
+meow meow meow meow meow meow, meow meow meow meow.
+
+1. meow.
+2. meow meow, meow.
+3. meow meow.
+
+# 作业
+meow meow, meow:
+
+$$
+\begin{equation}
+    \mathrm{me}=\sup_{t}ow_t
+\end{equation}
+$$
+
+# 成绩分布
+> meow! meow meow, meow meow meow.
+{: .prompt-danger }
+
+
+
+## 交叉引用
+
+[^footnote]: The footnote source
+[^fn-nth-2]: The 2nd footnote source
